@@ -91,7 +91,7 @@ CREATE TABLE PEDIDO (
     IDPedido INT IDENTITY(1,1) PRIMARY KEY,
     IDCliente INT NOT NULL,
     FechaCreacion DATETIME NOT NULL DEFAULT GETDATE(),
-    FechaConcretado DATETIME NULL,
+    FechaUltMovimiento DATETIME NULL,
     EstadoPedido NVARCHAR(50) NOT NULL 
         DEFAULT 'EnProceso'
         CHECK (EstadoPedido IN ('EnProceso', 'Finalizado')),
