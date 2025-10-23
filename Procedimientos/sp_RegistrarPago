@@ -1,0 +1,52 @@
+USE ECOMMERCE_BD;
+GO
+
+CREATE PROCEDURE sp_RegistrarPago
+    @IDPedido INT,
+    @MetodoPago NVARCHAR(100),
+    @Monto DECIMAL(12,2),
+    @IDDomicilio INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    BEGIN TRY
+        BEGIN TRANSACTION;
+
+        DECLARE @EstadoActual NVARCHAR(50);
+
+        SELECT @EstadoActual = EstadoPedido FROM PEDIDO WHERE IDPedido = @IDPedido;
+
+        IF @EstadoActual IS NULL
+            RAISERROR('El pedido no existe.', 16, 1);
+            RETURN;
+
+        IF @EstadoActual <> 'EnProceso'
+            RAISERROR('El pedido no se encuentra en estado válido para registrar un pago.', 16, 1);
+            RETURN;
+
+        -- Registrar el pago
+        INSERT INTO PAGO (IDPedido, MetodoPago, Monto)
+        VALUES (@IDPedido, @MetodoPago, @Monto);
+
+        -- Actualizar estado del pedido
+        UPDATE PEDIDO SET EstadoPedido = 'Finalizado', FechaUltMovimiento = GETDATE()
+        WHERE IDPedido = @IDPedido;
+
+        -- Crear el envío asociado
+        INSERT INTO ENVIO (IDPedido, IDDomicilio, EstadoEnvio)
+        VALUES (@IDPedido, @IDDomicilio, 'Pendiente');
+
+        COMMIT TRANSACTION;
+
+        PRINT 'Pago registrado y envío creado correctamente.';
+    END TRY
+    BEGIN CATCH
+        ROLLBACK TRANSACTION;
+        DECLARE @ErrorMessage NVARCHAR(4000) = ERROR_MESSAGE();
+        DECLARE @ErrorSeverity INT = ERROR_SEVERITY();
+        DECLARE @ErrorState INT = ERROR_STATE();
+        RAISERROR(@ErrorMessage, @ErrorSeverity, @ErrorState);
+    END CATCH
+END;
+GO
