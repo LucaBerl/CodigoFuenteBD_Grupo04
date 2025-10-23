@@ -74,14 +74,6 @@ BEGIN
             END
 
 
-            -- Recalcular monto total del pedido
-
-            UPDATE PEDIDO SET MontoTotal = (
-                SELECT SUM(Subtotal) FROM DetallePedido
-                WHERE IDPedido = @IDPedido
-            )
-            WHERE IDPedido = @IDPedido;
-
             PRINT 'Artículo agregado correctamente al carrito.';
         COMMIT TRANSACTION;
     END TRY
