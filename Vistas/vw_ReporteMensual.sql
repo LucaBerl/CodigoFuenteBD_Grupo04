@@ -1,3 +1,6 @@
+USE ECOMMERCE_BD;
+GO
+
 CREATE VIEW vw_ReporteMensual AS
 SELECT
     YEAR(PG.FechaPago) AS Anio,

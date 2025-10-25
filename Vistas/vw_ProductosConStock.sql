@@ -1,3 +1,7 @@
+USE ECOMMERCE_BD;
+GO
+
+
 CREATE VIEW vw_ProductosConStock AS
 SELECT
     P.IDProducto,

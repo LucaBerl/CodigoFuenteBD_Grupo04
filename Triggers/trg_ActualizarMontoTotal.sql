@@ -1,4 +1,4 @@
-USE ECOMMERCE_DB; 
+USE ECOMMERCE_BD; 
 GO
 
 CREATE TRIGGER trg_ActualizarMontoTotal

@@ -1,3 +1,6 @@
+USE ECOMMERCE_BD;
+GO
+
 CREATE VIEW vw_EstadoDePedido AS
 SELECT
     P.IDPedido,
