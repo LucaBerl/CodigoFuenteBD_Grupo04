@@ -11,17 +11,21 @@ CREATE PROCEDURE sp_AgregaArticuloEnPedido
     @Cantidad INT
 AS
 BEGIN
-    SET NOCOUNT ON; -- Suprime mensajes. El SP devuelve sOlo los resultados o errores relevantes.
+    SET NOCOUNT ON; 
 
     BEGIN TRY;
         BEGIN TRANSACTION;
+
             DECLARE @IDPedido INT;
             DECLARE @Precio DECIMAL(10,2);
             DECLARE @StockDisponible INT;
 
+            
+            DECLARE @IDEstadoEnProceso INT;
+            SELECT @IDEstadoEnProceso = IDEstadoPedido FROM EstadoPedido WHERE Nombre = 'EnProceso';
+
 
             -- Verificar stock del artículo
-
             SELECT @StockDisponible = CantidadStock, @Precio = Precio FROM ARTICULO 
             WHERE SKU = @SKU;
 
@@ -31,25 +35,24 @@ BEGIN
                 RETURN;
             END
 
-            IF @StockDisponible < @Cantidad  -- Esta verificacion tambien deberia estar en el front idealmente. Si no hay stock no deberia dejar agregar al carrito...
+            IF @StockDisponible < @Cantidad
             BEGIN
                 RAISERROR('No hay stock suficiente para este artículo.', 16, 1);
                 RETURN;
             END
 
 
-            --  Buscar si el cliente ya tiene un pedido en proceso o "carrito".
-
+            -- Buscar si el cliente ya tiene un pedido en proceso usando el ID
             SELECT TOP 1 @IDPedido = IDPedido FROM PEDIDO
-            WHERE IDCliente = @IDCliente AND EstadoPedido = 'EnProceso';
+            WHERE IDCliente = @IDCliente AND IDEstadoPedido = @IDEstadoEnProceso;
 
 
-            --  Si no existe un pedido (no tiene carrito de compras creado), crear un nuevo pedido...
-
+            -- Si no existe un pedido, crear un nuevo pedido...
             IF @IDPedido IS NULL
             BEGIN
-                INSERT INTO PEDIDO (IDCliente, FechaCreacion, FechaUltMovimiento, EstadoPedido, MontoTotal)
-                VALUES (@IDCliente, GETDATE(), GETDATE(), 'EnProceso', 0);
+                
+                INSERT INTO PEDIDO (IDCliente, FechaCreacion, FechaUltMovimiento, IDEstadoPedido, MontoTotal)
+                VALUES (@IDCliente, GETDATE(), GETDATE(), @IDEstadoEnProceso, 0);
 
                 SET @IDPedido = SCOPE_IDENTITY();
 
@@ -58,7 +61,7 @@ BEGIN
             END
             ELSE
             BEGIN 
-                UPDATE PEDIDO SET FechaUltMovimiento = GETDATE()  -- Actualizamos la fecha de ultimo movimiento...
+                UPDATE PEDIDO SET FechaUltMovimiento = GETDATE()
                 WHERE IDPedido = @IDPedido;
 
                 -- Si el articulo ya estaba en el pedido, sumamos cantidades...
@@ -79,7 +82,6 @@ BEGIN
             PRINT 'Artículo agregado correctamente al carrito.';
         COMMIT TRANSACTION;
     END TRY
-
     BEGIN CATCH
         ROLLBACK TRANSACTION;
         DECLARE @ErrorMessage NVARCHAR(4000);

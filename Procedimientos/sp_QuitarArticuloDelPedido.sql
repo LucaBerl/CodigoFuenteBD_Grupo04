@@ -18,39 +18,43 @@ BEGIN
 
         DECLARE @IDPedido INT;
         DECLARE @CantidadActual INT;
+        
+        
+        DECLARE @IDEstadoEnProceso INT;
+        SELECT @IDEstadoEnProceso = IDEstadoPedido FROM EstadoPedido WHERE Nombre = 'EnProceso';
 
-        -- Buscar pedido "EnProceso" del cliente
+        -- Buscar pedido "EnProceso" del cliente usando el ID
 
         SELECT TOP 1 @IDPedido = IDPedido FROM PEDIDO
-        WHERE IDCliente = @IDCliente AND EstadoPedido = 'EnProceso';
+        WHERE IDCliente = @IDCliente AND IDEstadoPedido = @IDEstadoEnProceso;
 
         IF @IDPedido IS NULL
         BEGIN
             RAISERROR('No existe un pedido en proceso para este cliente.', 16, 1);
+            ROLLBACK TRANSACTION;
             RETURN;
         END
 
         -- Verificar que el articulo este dentro del pedido
-
         SELECT @CantidadActual = CantidadPedido FROM DetallePedido
         WHERE IDPedido = @IDPedido AND SKU = @SKU;
 
         IF @CantidadActual IS NULL
         BEGIN
             RAISERROR('El artículo no existe en el pedido.', 16, 1);
+            ROLLBACK TRANSACTION;
             RETURN;
         END
 
         -- Verificar que la cantidad a quitar sea menor o igual a la cantidad actual
-
         IF @Cantidad > @CantidadActual
         BEGIN
             RAISERROR('La cantidad a quitar supera la cantidad actual en el pedido.', 16, 1);
+            ROLLBACK TRANSACTION;
             RETURN;
         END
 
         -- Reducir cantidad o eliminar el detalle si queda en cero
-
         IF @Cantidad = @CantidadActual
         BEGIN
             DELETE FROM DetallePedido
@@ -63,7 +67,6 @@ BEGIN
         END
 
         -- Actualizar fecha de último movimiento del pedido
-
         UPDATE PEDIDO SET FechaUltMovimiento = GETDATE()
         WHERE IDPedido = @IDPedido;
 
@@ -72,7 +75,6 @@ BEGIN
         PRINT 'Artículo quitado correctamente del pedido.';
 
     END TRY
-
     BEGIN CATCH
         ROLLBACK TRANSACTION;
 

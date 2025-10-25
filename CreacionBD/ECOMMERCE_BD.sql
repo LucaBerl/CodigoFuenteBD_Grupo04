@@ -1,14 +1,15 @@
 -- =============================================
--- CREACIÓN DE BASE DE DATOS 
+-- CREACIÓN DE BASE DE DATOS
 -- =============================================
 CREATE DATABASE ECOMMERCE_BD;
 GO
 USE ECOMMERCE_BD;
 GO
 
--- =============================================
+
 -- TABLAS MAESTRAS
--- =============================================
+
+
 CREATE TABLE CATEGORIA (
     IDCategoria INT IDENTITY(1,1) PRIMARY KEY,
     Nombre NVARCHAR(50) NOT NULL,
@@ -20,9 +21,41 @@ CREATE TABLE MARCA (
     Nombre NVARCHAR(50) NOT NULL
 );
 
--- =============================================
+
+-- TABLAS MAESTRAS DE ESTADOS 
+
+
+CREATE TABLE EstadoPedido (
+    IDEstadoPedido INT IDENTITY(1,1) PRIMARY KEY,
+    Nombre NVARCHAR(50) NOT NULL UNIQUE
+);
+GO
+
+CREATE TABLE EstadoEnvio (
+    IDEstadoEnvio INT IDENTITY(1,1) PRIMARY KEY,
+    Nombre NVARCHAR(50) NOT NULL UNIQUE
+);
+GO
+
+-- Insertamos los estados definidos
+
+INSERT INTO EstadoPedido (Nombre) VALUES
+('EnProceso'),    -- ID 1
+('Finalizado'),   -- ID 2
+('Expirado');     -- ID 3
+GO
+
+INSERT INTO EstadoEnvio (Nombre) VALUES
+('Pendiente'),    -- ID 1
+('EnTransito'),   -- ID 2
+('Entregado'),    -- ID 3
+('Cancelado'),    -- ID 4
+('RetiraLocal');  -- ID 5
+GO
+
+
 -- PRODUCTO Y ARTICULO
--- =============================================
+
 CREATE TABLE PRODUCTO (
     IDProducto INT IDENTITY(1,1) PRIMARY KEY,
     Nombre NVARCHAR(50) NOT NULL,
@@ -53,9 +86,9 @@ CREATE TABLE ImagenesArticulo (
     CONSTRAINT FK_Imagen_Sku FOREIGN KEY (SKU) REFERENCES ARTICULO(SKU)
 );
 
--- =============================================
+
 -- CLIENTES Y USUARIOS
--- =============================================
+
 CREATE TABLE CLIENTE (
     IDCliente INT IDENTITY(1,1) PRIMARY KEY,
     Nombre NVARCHAR(100) NOT NULL,
@@ -84,19 +117,19 @@ CREATE TABLE DomicilioCliente (
     CONSTRAINT FK_Domicilio_Cliente FOREIGN KEY (IDCliente) REFERENCES CLIENTE(IDCliente)
 );
 
--- =============================================
+
 -- PEDIDOS, DETALLES, PAGOS Y ENVÍOS
--- =============================================
+
 CREATE TABLE PEDIDO (
     IDPedido INT IDENTITY(1,1) PRIMARY KEY,
     IDCliente INT NOT NULL,
     FechaCreacion DATETIME NOT NULL DEFAULT GETDATE(),
     FechaUltMovimiento DATETIME NULL,
-    EstadoPedido NVARCHAR(50) NOT NULL 
-        DEFAULT 'EnProceso'
-        CHECK (EstadoPedido IN ('EnProceso', 'Finalizado')),
     MontoTotal DECIMAL(12,2) NULL,
-    CONSTRAINT FK_Pedido_Cliente FOREIGN KEY (IDCliente) REFERENCES CLIENTE(IDCliente)
+    IDEstadoPedido INT NOT NULL DEFAULT 1, -- 1 = 'EnProceso'
+    
+    CONSTRAINT FK_Pedido_Cliente FOREIGN KEY (IDCliente) REFERENCES CLIENTE(IDCliente),
+    CONSTRAINT FK_Pedido_EstadoPedido FOREIGN KEY (IDEstadoPedido) REFERENCES EstadoPedido(IDEstadoPedido)
 );
 
 CREATE TABLE DetallePedido (
@@ -122,12 +155,21 @@ CREATE TABLE PAGO (
 CREATE TABLE ENVIO (
     IDEnvio INT IDENTITY(1,1) PRIMARY KEY,
     IDPedido INT NOT NULL,
-    IDDomicilio INT NOT NULL,
-    EstadoEnvio NVARCHAR(50) NOT NULL DEFAULT 'Pendiente'
-        CHECK (EstadoEnvio IN ('Pendiente','EnTransito','Entregado','Cancelado')),
+    IDDomicilio INT NULL, 
+    IDEstadoEnvio INT NOT NULL DEFAULT 1, -- 1 = 'Pendiente'
     FechaUltMovimiento DATETIME NOT NULL DEFAULT GETDATE(),
     Tracking NVARCHAR(100) NULL,
+
     CONSTRAINT FK_Envio_Pedido FOREIGN KEY (IDPedido) REFERENCES PEDIDO(IDPedido),
-    CONSTRAINT FK_Envio_Domicilio FOREIGN KEY (IDDomicilio) REFERENCES DomicilioCliente(IDDomicilio)
+    CONSTRAINT FK_Envio_Domicilio FOREIGN KEY (IDDomicilio) REFERENCES DomicilioCliente(IDDomicilio),
+    CONSTRAINT FK_Envio_EstadoEnvio FOREIGN KEY (IDEstadoEnvio) REFERENCES EstadoEnvio(IDEstadoEnvio),
+
+    -- Constraint Lógica para Domicilio/RetiraLocal
+    CONSTRAINT CK_Envio_Domicilio_Logica CHECK (
+  
+        (IDEstadoEnvio = 5 AND IDDomicilio IS NULL)      -- Opción 1: Es "RetiraLocal" (ID 5) Y el domicilio es NULO
+        OR       
+        (IDEstadoEnvio != 5 AND IDDomicilio IS NOT NULL) -- Opción 2: NO es "RetiraLocal" Y el domicilio NO es NULO
+    )
 );
 GO
