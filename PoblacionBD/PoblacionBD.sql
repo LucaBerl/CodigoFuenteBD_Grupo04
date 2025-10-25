@@ -249,70 +249,73 @@ INSERT INTO DomicilioCliente (IDCliente, Calle, Altura, Ciudad, Provincia, Codig
 (15, 'Honduras', '181', 'CABA', 'Buenos Aires', 'C1065AAS');
 GO
 
-INSERT INTO PEDIDO (IDCliente, FechaCreacion, FechaConcretado, EstadoPedido) VALUES
--- Pedidos Finalizados
-(1, '2025-09-15T10:00:00', '2025-09-15T18:00:00', 'Finalizado'),
-(7, '2025-09-16T11:30:00', '2025-09-17T09:00:00', 'Finalizado'),
-(12, '2025-09-17T14:20:00', '2025-09-17T20:45:00', 'Finalizado'),
-(4, '2025-09-18T09:00:00', '2025-09-19T11:00:00', 'Finalizado'),
-(9, '2025-09-19T21:00:00', '2025-09-20T15:30:00', 'Finalizado'),
-(2, '2025-09-20T13:15:00', '2025-09-21T10:00:00', 'Finalizado'),
-(15, '2025-09-21T18:00:00', '2025-09-22T14:20:00', 'Finalizado'),
-(5, '2025-09-22T22:30:00', '2025-09-23T19:00:00', 'Finalizado'),
-(11, '2025-09-23T10:45:00', '2025-09-24T12:00:00', 'Finalizado'),
-(8, '2025-09-24T12:00:00', '2025-09-24T22:10:00', 'Finalizado'),
-(3, '2025-09-25T15:00:00', '2025-09-26T13:00:00', 'Finalizado'),
-(14, '2025-09-26T17:30:00', '2025-09-27T16:00:00', 'Finalizado'),
-(6, '2025-09-27T19:00:00', '2025-09-28T18:00:00', 'Finalizado'),
-(10, '2025-09-28T08:00:00', '2025-09-28T20:00:00', 'Finalizado'),
-(1, '2025-09-29T11:25:00', '2025-09-30T10:00:00', 'Finalizado'),
-(13, '2025-09-30T16:00:00', '2025-10-01T15:30:00', 'Finalizado'),
-(7, '2025-10-01T18:10:00', '2025-10-02T17:00:00', 'Finalizado'),
-(2, '2025-10-02T20:00:00', '2025-10-03T19:00:00', 'Finalizado'),
-(12, '2025-10-03T23:00:00', '2025-10-04T21:00:00', 'Finalizado'),
-(5, '2025-10-04T09:30:00', '2025-10-05T12:00:00', 'Finalizado'),
-(9, '2025-10-05T14:00:00', '2025-10-06T14:00:00', 'Finalizado'),
-(14, '2025-10-06T15:15:00', '2025-10-07T15:00:00', 'Finalizado'),
-(3, '2025-10-07T17:45:00', '2025-10-08T18:00:00', 'Finalizado'),
-(11, '2025-10-08T19:00:00', '2025-10-09T20:00:00', 'Finalizado'),
-(6, '2025-10-09T22:00:00', '2025-10-10T22:30:00', 'Finalizado'),
--- Pedidos En Proceso (Fecha actual)
-(10, GETDATE(), NULL, 'EnProceso'),
-(4, GETDATE(), NULL, 'EnProceso'),
-(1, GETDATE(), NULL, 'EnProceso'),
-(8, GETDATE(), NULL, 'EnProceso'),
-(13, GETDATE(), NULL, 'EnProceso');
+-- =============================================
+-- 'EnProceso' = 1, 'Finalizado' = 2
+-- =============================================
+INSERT INTO PEDIDO (IDCliente, FechaCreacion, FechaUltMovimiento, IDEstadoPedido) VALUES
+-- Pedidos Finalizados (ID = 2)
+(1, '2025-09-15T10:00:00', '2025-09-15T18:00:00', 2),
+(7, '2025-09-16T11:30:00', '2025-09-17T09:00:00', 2),
+(12, '2025-09-17T14:20:00', '2025-09-17T20:45:00', 2),
+(4, '2025-09-18T09:00:00', '2025-09-19T11:00:00', 2),
+(9, '2025-09-19T21:00:00', '2025-09-20T15:30:00', 2),
+(2, '2025-09-20T13:15:00', '2025-09-21T10:00:00', 2),
+(15, '2025-09-21T18:00:00', '2025-09-22T14:20:00', 2),
+(5, '2025-09-22T22:30:00', '2025-09-23T19:00:00', 2),
+(11, '2025-09-23T10:45:00', '2025-09-24T12:00:00', 2),
+(8, '2025-09-24T12:00:00', '2025-09-24T22:10:00', 2),
+(3, '2025-09-25T15:00:00', '2025-09-26T13:00:00', 2),
+(14, '2025-09-26T17:30:00', '2025-09-27T16:00:00', 2),
+(6, '2025-09-27T19:00:00', '2025-09-28T18:00:00', 2),
+(10, '2025-09-28T08:00:00', '2025-09-28T20:00:00', 2),
+(1, '2025-09-29T11:25:00', '2025-09-30T10:00:00', 2),
+(13, '2025-09-30T16:00:00', '2025-10-01T15:30:00', 2),
+(7, '2025-10-01T18:10:00', '2025-10-02T17:00:00', 2),
+(2, '2025-10-02T20:00:00', '2025-10-03T19:00:00', 2),
+(12, '2025-10-03T23:00:00', '2025-10-04T21:00:00', 2),
+(5, '2025-10-04T09:30:00', '2025-10-05T12:00:00', 2),
+(9, '2025-10-05T14:00:00', '2025-10-06T14:00:00', 2),
+(14, '2025-10-06T15:15:00', '2025-10-07T15:00:00', 2),
+(3, '2025-10-07T17:45:00', '2025-10-08T18:00:00', 2),
+(11, '2025-10-08T19:00:00', '2025-10-09T20:00:00', 2),
+(6, '2025-10-09T22:00:00', '2025-10-10T22:30:00', 2),
+-- Pedidos En Proceso (ID = 1)
+(10, GETDATE(), NULL, 1),
+(4, GETDATE(), NULL, 1),
+(1, GETDATE(), NULL, 1),
+(8, GETDATE(), NULL, 1),
+(13, GETDATE(), NULL, 1);
 GO
 
 INSERT INTO DetallePedido (IDPedido, SKU, CantidadPedido, PrecioUnitario) VALUES
 -- Pedido 1: Compra Nike
-(1, 1, 1, 120.00),   -- Nike Air Max 270 Negro
-(1, 11, 1, 25.00),  -- Nike Heritage86 Gorra
+(1, 1, 1, 120.00),    -- Nike Air Max 270 Negro
+(1, 11, 1, 25.00),   -- Nike Heritage86 Gorra
 -- Pedido 2: Compra Adidas
-(2, 33, 1, 45.00),  -- Adidas Tiro 21 Pantalón
-(2, 35, 2, 28.00),  -- Adidas Essentials Remera (x2)
+(2, 33, 1, 45.00),   -- Adidas Tiro 21 Pantalón
+(2, 35, 2, 28.00),   -- Adidas Essentials Remera (x2)
 -- Pedido 3: Compra Zara formal
-(3, 95, 1, 79.99),  -- Zara Blazer Estructura
-(3, 109, 1, 89.99), -- Zara Botín Tacón Piel
+(3, 95, 1, 79.99),   -- Zara Blazer Estructura
+(3, 109, 1, 89.99),  -- Zara Botín Tacón Piel
 -- Pedido 4: Compra Puma deportiva
-(4, 63, 1, 110.00), -- Puma RS-X³ Zapatillas
-(4, 89, 1, 35.00),  -- Puma Teamliga Remera
+(4, 63, 1, 110.00),  -- Puma RS-X³ Zapatillas
+(4, 89, 1, 35.00),   -- Puma Teamliga Remera
 -- Pedido 5: Compra H&M casual
-(5, 129, 1, 19.99), -- H&M Pantalón Jogger
-(5, 139, 1, 29.99), -- H&M Sudadera Capucha
+(5, 129, 1, 19.99),  -- H&M Pantalón Jogger
+(5, 139, 1, 29.99),  -- H&M Sudadera Capucha
 -- Pedido 6: Compra de calzado clásico
-(6, 7, 1, 90.00),   -- Nike Air Force 1
-(6, 37, 1, 85.00),  -- Adidas Stan Smith
+(6, 7, 1, 90.00),    -- Nike Air Force 1
+(6, 37, 1, 85.00),   -- Adidas Stan Smith
 -- Pedido 7: Compra de básicos y accesorios
-(7, 121, 3, 9.99),  -- H&M Remera Algodón (x3)
-(7, 147, 1, 12.99), -- H&M Calcetines (5 pares)
-(7, 101, 1, 25.99), -- Zara Cinturón Piel
+(7, 121, 3, 9.99),   -- H&M Remera Algodón (x3)
+(7, 147, 1, 12.99),  -- H&M Calcetines (5 pares)
+(7, 101, 1, 25.99),  -- Zara Cinturón Piel
 -- Pedido 8: Compra de ropa femenina
-(8, 103, 1, 45.99), -- Zara Vestido Camisero
-(8, 99, 1, 49.99),  -- Zara Falda Midi Plisada
+(8, 103, 1, 45.99),  -- Zara Vestido Camisero
+(8, 99, 1, 49.99),   -- Zara Falda Midi Plisada
 -- Pedido 9: Compra de equipamiento de fútbol
-(9, 17, 1, 150.00), -- Nike Phantom GT2
-(9, 57, 1, 16.00),  -- Adidas Cushioned Crew Calcetines
+(9, 17, 1, 150.00),  -- Nike Phantom GT2
+(9, 57, 1, 16.00),   -- Adidas Cushioned Crew Calcetines
 -- Pedido 10: Compra de zapatillas retro
 (10, 53, 1, 80.00),  -- Adidas Gazelle
 (10, 67, 1, 70.00),  -- Puma Suede Classic
@@ -418,32 +421,36 @@ INSERT INTO PAGO (IDPedido, MetodoPago, FechaPago, Monto) VALUES
 GO
 
 
-INSERT INTO ENVIO (IDPedido, IDDomicilio, EstadoEnvio, FechaUltMovimiento, Tracking) VALUES
--- Pedidos Entregados
-(1, 1, 'Entregado', '2025-09-19T18:00:00', 'OCA1024'),
-(2, 8, 'Entregado', '2025-09-21T09:00:00', 'CORREOARG2048'),
-(3, 13, 'Entregado', '2025-09-21T20:45:00', 'ANDREANI3072'),
-(4, 5, 'Entregado', '2025-09-23T11:00:00', 'OCA4096'),
-(5, 10, 'Entregado', '2025-09-24T15:30:00', 'CORREOARG5120'),
-(6, 3, 'Entregado', '2025-09-25T10:00:00', 'ANDREANI6144'),
-(7, 18, 'Entregado', '2025-09-26T14:20:00', 'OCA7168'),
-(8, 6, 'Entregado', '2025-09-27T19:00:00', 'CORREOARG8192'),
-(9, 14, 'Entregado', '2025-09-28T12:00:00', 'ANDREANI9216'),
-(10, 9, 'Entregado', '2025-09-28T22:10:00', 'OCA10240'),
-(11, 12, 'Entregado', '2025-09-30T13:00:00', 'CORREOARG11264'),
-(12, 16, 'Entregado', '2025-10-01T16:00:00', 'ANDREANI12288'),
-(13, 7, 'Entregado', '2025-10-02T18:00:00', 'OCA13312'),
-(14, 11, 'Entregado', '2025-10-02T20:00:00', 'CORREOARG14336'),
-(15, 2, 'Entregado', '2025-10-04T10:00:00', 'ANDREANI15360'),
-(16, 15, 'Entregado', '2025-10-05T15:30:00', 'OCA16384'),
-(17, 8, 'Entregado', '2025-10-06T17:00:00', 'CORREOARG17408'),
-(18, 3, 'Entregado', '2025-10-07T19:00:00', 'ANDREANI18432'),
-(19, 13, 'Entregado', '2025-10-08T21:00:00', 'OCA19456'),
-(20, 6, 'Entregado', '2025-10-09T12:00:00', 'CORREOARG20480'),
-(21, 10, 'Entregado', '2025-10-10T14:00:00', 'ANDREANI21504'),
-(22, 17, 'Entregado', '2025-10-11T15:00:00', 'OCA22528'),
--- Pedidos En Tránsito (con fecha y hora actual)
-(23, 4, 'EnTransito', GETDATE(), 'CORREOARG23552'),
-(24, 12, 'EnTransito', GETDATE(), 'ANDREANI24576'),
-(25, 7, 'EnTransito', GETDATE(), 'OCA25600');
+-- =============================================
+-- 'Pendiente' = 1, 'EnTransito' = 2, 'Entregado' = 3
+-- =============================================
+
+INSERT INTO ENVIO (IDPedido, IDDomicilio, IDEstadoEnvio, FechaUltMovimiento, Tracking) VALUES
+-- Pedidos Entregados (ID = 3)
+(1, 1, 3, '2025-09-19T18:00:00', 'OCA1024'),
+(2, 8, 3, '2025-09-21T09:00:00', 'CORREOARG2048'),
+(3, 13, 3, '2025-09-21T20:45:00', 'ANDREANI3072'),
+(4, 5, 3, '2025-09-23T11:00:00', 'OCA4096'),
+(5, 10, 3, '2025-09-24T15:30:00', 'CORREOARG5120'),
+(6, 3, 3, '2025-09-25T10:00:00', 'ANDREANI6144'),
+(7, 18, 3, '2025-09-26T14:20:00', 'OCA7168'),
+(8, 6, 3, '2025-09-27T19:00:00', 'CORREOARG8192'),
+(9, 14, 3, '2025-09-28T12:00:00', 'ANDREANI9216'),
+(10, 9, 3, '2025-09-28T22:10:00', 'OCA10240'),
+(11, 12, 3, '2025-09-30T13:00:00', 'CORREOARG11264'),
+(12, 16, 3, '2025-10-01T16:00:00', 'ANDREANI12288'),
+(13, 7, 3, '2025-10-02T18:00:00', 'OCA13312'),
+(14, 11, 3, '2025-10-02T20:00:00', 'CORREOARG14336'),
+(15, 2, 3, '2025-10-04T10:00:00', 'ANDREANI15360'),
+(16, 15, 3, '2025-10-05T15:30:00', 'OCA16384'),
+(17, 8, 3, '2025-10-06T17:00:00', 'CORREOARG17408'),
+(18, 3, 3, '2025-10-07T19:00:00', 'ANDREANI18432'),
+(19, 13, 3, '2025-10-08T21:00:00', 'OCA19456'),
+(20, 6, 3, '2025-10-09T12:00:00', 'CORREOARG20480'),
+(21, 10, 3, '2025-10-10T14:00:00', 'ANDREANI21504'),
+(22, 17, 3, '2025-10-11T15:00:00', 'OCA22528'),
+-- Pedidos En Tránsito (ID = 2)
+(23, 4, 2, GETDATE(), 'CORREOARG23552'),
+(24, 12, 2, GETDATE(), 'ANDREANI24576'),
+(25, 7, 2, GETDATE(), 'OCA25600');
 GO
