@@ -167,9 +167,12 @@ CREATE TABLE ENVIO (
     -- Constraint Lógica para Domicilio/RetiraLocal
     CONSTRAINT CK_Envio_Domicilio_Logica CHECK (
   
-        (IDEstadoEnvio = 5 AND IDDomicilio IS NULL)      -- Opción 1: Es "RetiraLocal" (ID 5) Y el domicilio es NULO
-        OR       
-        (IDEstadoEnvio != 5 AND IDDomicilio IS NOT NULL) -- Opción 2: NO es "RetiraLocal" Y el domicilio NO es NULO
-    )
+         (IDEstadoEnvio = 5 AND IDDomicilio IS NULL) -- Opción 1: Es "RetiraLocal" (5) Y el domicilio es NULO
+         OR
+         (IDEstadoEnvio IN (1, 2, 4) AND IDDomicilio IS NOT NULL) -- Opción 2: Es un envío estándar (1, 2, 4) Y el domicilio NO ES NULO
+         OR
+         (IDEstadoEnvio = 3) -- Opción 3: Es "Entregado" (3). En este estado, se permite tanto NULL (si fue RetiraLocal) como NOT NULL (si fue envío).
+    
+    )    
 );
 GO
