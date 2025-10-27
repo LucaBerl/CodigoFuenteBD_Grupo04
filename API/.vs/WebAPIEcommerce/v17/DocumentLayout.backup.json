@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\API Ecommerce\\WebAPIEcommerce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\api ecommerce\\webapiecommerce\\webapiecommerce\\controllers\\enviocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\controllers\\enviocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\api ecommerce\\webapiecommerce\\webapiecommerce\\models\\actualizarenviorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\models\\actualizarenviorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\api ecommerce\\webapiecommerce\\webapiecommerce\\dal\\enviodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\dal\\enviodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\api ecommerce\\webapiecommerce\\webapiecommerce\\bll\\productologica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\bll\\productologica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ActualizarEnvioRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\API Ecommerce\\WebAPIEcommerce\\WebAPIEcommerce\\Models\\ActualizarEnvioRequest.cs",
+              "RelativeDocumentMoniker": "WebAPIEcommerce\\Models\\ActualizarEnvioRequest.cs",
+              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\API Ecommerce\\WebAPIEcommerce\\WebAPIEcommerce\\Models\\ActualizarEnvioRequest.cs",
+              "RelativeToolTip": "WebAPIEcommerce\\Models\\ActualizarEnvioRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T23:31:51.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnvioController.cs",
+              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\API Ecommerce\\WebAPIEcommerce\\WebAPIEcommerce\\Controllers\\EnvioController.cs",
+              "RelativeDocumentMoniker": "WebAPIEcommerce\\Controllers\\EnvioController.cs",
+              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\API Ecommerce\\WebAPIEcommerce\\WebAPIEcommerce\\Controllers\\EnvioController.cs",
+              "RelativeToolTip": "WebAPIEcommerce\\Controllers\\EnvioController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T23:31:35.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnvioDatos.cs",
+              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\API Ecommerce\\WebAPIEcommerce\\WebAPIEcommerce\\DAL\\EnvioDatos.cs",
+              "RelativeDocumentMoniker": "WebAPIEcommerce\\DAL\\EnvioDatos.cs",
+              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\API Ecommerce\\WebAPIEcommerce\\WebAPIEcommerce\\DAL\\EnvioDatos.cs",
+              "RelativeToolTip": "WebAPIEcommerce\\DAL\\EnvioDatos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T23:30:10.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductoLogica.cs",
+              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\API Ecommerce\\WebAPIEcommerce\\WebAPIEcommerce\\BLL\\ProductoLogica.cs",
+              "RelativeDocumentMoniker": "WebAPIEcommerce\\BLL\\ProductoLogica.cs",
+              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\API Ecommerce\\WebAPIEcommerce\\WebAPIEcommerce\\BLL\\ProductoLogica.cs",
+              "RelativeToolTip": "WebAPIEcommerce\\BLL\\ProductoLogica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T23:30:00.506Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
