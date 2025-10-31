@@ -114,8 +114,13 @@ CREATE TABLE DomicilioCliente (
     Ciudad NVARCHAR(100) NOT NULL,
     Provincia NVARCHAR(100) NOT NULL,
     CodigoPostal NVARCHAR(20) NOT NULL,
+    EsPredeterminado BIT NULL DEFAULT 0,-- <-- CORREGIDO: Coma en lugar de punto y coma
     CONSTRAINT FK_Domicilio_Cliente FOREIGN KEY (IDCliente) REFERENCES CLIENTE(IDCliente)
 );
+GO
+
+CREATE UNIQUE INDEX UQ_Cliente_Predeterminado_Unico ON DomicilioCliente(IDCliente) WHERE EsPredeterminado = 1; 
+GO
 
 
 -- PEDIDOS, DETALLES, PAGOS Y ENVÍOS
