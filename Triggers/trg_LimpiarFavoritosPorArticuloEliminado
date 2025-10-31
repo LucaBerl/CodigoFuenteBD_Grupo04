@@ -1,0 +1,16 @@
+USE ECOMMERCE_BD;
+GO
+
+CREATE TRIGGER trg_LimpiarFavoritosPorArticuloEliminado
+ON ARTICULO
+AFTER DELETE
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Eliminamos de FavoritosCliente cualquier SKU que haya sido eliminado de la tabla ARTICULO.
+
+    DELETE FROM FavoritosCliente
+    WHERE SKU IN (SELECT d.SKU FROM deleted d);
+END;
+GO
