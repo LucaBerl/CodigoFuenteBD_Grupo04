@@ -180,4 +180,15 @@ CREATE TABLE ENVIO (
     
     )    
 );
+
+CREATE TABLE FavoritosCliente (
+    IDCliente INT NOT NULL,
+    SKU INT NOT NULL,
+    FechaAgregado DATETIME NOT NULL DEFAULT GETDATE(),
+    
+    CONSTRAINT PK_FavoritosCliente PRIMARY KEY (IDCliente, SKU),
+    CONSTRAINT FK_Favoritos_Cliente FOREIGN KEY (IDCliente) REFERENCES CLIENTE(IDCliente),
+    CONSTRAINT FK_Favoritos_Articulo FOREIGN KEY (SKU) REFERENCES ARTICULO(SKU)
+);
+
 GO
