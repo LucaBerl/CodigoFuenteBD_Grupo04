@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\API Ecommerce\\WebAPIEcommerce\\",
+  "WorkspaceRootPath": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\api ecommerce\\webapiecommerce\\webapiecommerce\\controllers\\enviocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\controllers\\enviocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\controllers\\pedidocntroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\controllers\\pedidocntroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\api ecommerce\\webapiecommerce\\webapiecommerce\\models\\actualizarenviorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\models\\actualizarenviorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\bll\\pedidologica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\bll\\pedidologica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\api ecommerce\\webapiecommerce\\webapiecommerce\\dal\\enviodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\dal\\enviodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\dal\\pedidodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\dal\\pedidodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\api ecommerce\\webapiecommerce\\webapiecommerce\\bll\\productologica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\bll\\productologica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\models\\estadodepedidoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\models\\estadodepedidoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ActualizarEnvioRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\API Ecommerce\\WebAPIEcommerce\\WebAPIEcommerce\\Models\\ActualizarEnvioRequest.cs",
-              "RelativeDocumentMoniker": "WebAPIEcommerce\\Models\\ActualizarEnvioRequest.cs",
-              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\API Ecommerce\\WebAPIEcommerce\\WebAPIEcommerce\\Models\\ActualizarEnvioRequest.cs",
-              "RelativeToolTip": "WebAPIEcommerce\\Models\\ActualizarEnvioRequest.cs",
+              "DocumentIndex": 0,
+              "Title": "PedidoCntroller.cs",
+              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Controllers\\PedidoCntroller.cs",
+              "RelativeDocumentMoniker": "WebAPIEcommerce\\Controllers\\PedidoCntroller.cs",
+              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Controllers\\PedidoCntroller.cs",
+              "RelativeToolTip": "WebAPIEcommerce\\Controllers\\PedidoCntroller.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T23:31:51.283Z",
+              "WhenOpened": "2025-10-31T20:22:01.025Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EnvioController.cs",
-              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\API Ecommerce\\WebAPIEcommerce\\WebAPIEcommerce\\Controllers\\EnvioController.cs",
-              "RelativeDocumentMoniker": "WebAPIEcommerce\\Controllers\\EnvioController.cs",
-              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\API Ecommerce\\WebAPIEcommerce\\WebAPIEcommerce\\Controllers\\EnvioController.cs",
-              "RelativeToolTip": "WebAPIEcommerce\\Controllers\\EnvioController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAmwCYAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "PedidoLogica.cs",
+              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\BLL\\PedidoLogica.cs",
+              "RelativeDocumentMoniker": "WebAPIEcommerce\\BLL\\PedidoLogica.cs",
+              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\BLL\\PedidoLogica.cs",
+              "RelativeToolTip": "WebAPIEcommerce\\BLL\\PedidoLogica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T23:31:35.098Z",
+              "WhenOpened": "2025-10-31T19:47:48.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EnvioDatos.cs",
-              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\API Ecommerce\\WebAPIEcommerce\\WebAPIEcommerce\\DAL\\EnvioDatos.cs",
-              "RelativeDocumentMoniker": "WebAPIEcommerce\\DAL\\EnvioDatos.cs",
-              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\API Ecommerce\\WebAPIEcommerce\\WebAPIEcommerce\\DAL\\EnvioDatos.cs",
-              "RelativeToolTip": "WebAPIEcommerce\\DAL\\EnvioDatos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Title": "PedidoDatos.cs",
+              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\DAL\\PedidoDatos.cs",
+              "RelativeDocumentMoniker": "WebAPIEcommerce\\DAL\\PedidoDatos.cs",
+              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\DAL\\PedidoDatos.cs",
+              "RelativeToolTip": "WebAPIEcommerce\\DAL\\PedidoDatos.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAkwFEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T23:30:10.853Z",
+              "WhenOpened": "2025-10-31T19:46:15.073Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductoLogica.cs",
-              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\API Ecommerce\\WebAPIEcommerce\\WebAPIEcommerce\\BLL\\ProductoLogica.cs",
-              "RelativeDocumentMoniker": "WebAPIEcommerce\\BLL\\ProductoLogica.cs",
-              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\API Ecommerce\\WebAPIEcommerce\\WebAPIEcommerce\\BLL\\ProductoLogica.cs",
-              "RelativeToolTip": "WebAPIEcommerce\\BLL\\ProductoLogica.cs",
+              "Title": "EstadoDePedidoView.cs",
+              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\EstadoDePedidoView.cs",
+              "RelativeDocumentMoniker": "WebAPIEcommerce\\Models\\EstadoDePedidoView.cs",
+              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\EstadoDePedidoView.cs",
+              "RelativeToolTip": "WebAPIEcommerce\\Models\\EstadoDePedidoView.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T23:30:00.506Z",
+              "WhenOpened": "2025-10-31T19:45:38.549Z",
               "EditorCaption": ""
             }
           ]
