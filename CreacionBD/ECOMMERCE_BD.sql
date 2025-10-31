@@ -114,7 +114,7 @@ CREATE TABLE DomicilioCliente (
     Ciudad NVARCHAR(100) NOT NULL,
     Provincia NVARCHAR(100) NOT NULL,
     CodigoPostal NVARCHAR(20) NOT NULL,
-    EsPredeterminado BIT NULL DEFAULT 0,-- <-- CORREGIDO: Coma en lugar de punto y coma
+    EsPredeterminado BIT NULL DEFAULT 0,
     CONSTRAINT FK_Domicilio_Cliente FOREIGN KEY (IDCliente) REFERENCES CLIENTE(IDCliente)
 );
 GO
