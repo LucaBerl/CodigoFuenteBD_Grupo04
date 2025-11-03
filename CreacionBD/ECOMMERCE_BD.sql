@@ -75,7 +75,8 @@ CREATE TABLE ARTICULO (
     Talle NVARCHAR(20) NOT NULL,
     CantidadStock INT NOT NULL DEFAULT 0 CHECK (CantidadStock >= 0),
     Precio DECIMAL(10,2) NOT NULL DEFAULT 0 CHECK (Precio >= 0),
-    CONSTRAINT FK_Item_Producto FOREIGN KEY (IDProducto) REFERENCES PRODUCTO(IDProducto) ON DELETE CASCADE,
+    Estado BIT NOT NULL DEFAULT 1,
+    CONSTRAINT FK_Item_Producto FOREIGN KEY (IDProducto) REFERENCES PRODUCTO(IDProducto),
     CONSTRAINT UQ_Item_Variante UNIQUE (IDProducto, Color, Talle)
 );
 
