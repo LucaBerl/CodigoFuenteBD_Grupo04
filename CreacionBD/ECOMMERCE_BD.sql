@@ -13,12 +13,14 @@ GO
 CREATE TABLE CATEGORIA (
     IDCategoria INT IDENTITY(1,1) PRIMARY KEY,
     Nombre NVARCHAR(50) NOT NULL,
-    Descripcion NVARCHAR(255) NULL
+    Descripcion NVARCHAR(255) NULL,
+    Estado BIT NOT NULL DEFAULT 1
 );
 
 CREATE TABLE MARCA (
     IDMarca INT IDENTITY(1,1) PRIMARY KEY,
-    Nombre NVARCHAR(50) NOT NULL
+    Nombre NVARCHAR(50) NOT NULL,
+    Estado BIT NOT NULL DEFAULT 1
 );
 
 
@@ -116,6 +118,7 @@ CREATE TABLE DomicilioCliente (
     Provincia NVARCHAR(100) NOT NULL,
     CodigoPostal NVARCHAR(20) NOT NULL,
     EsPredeterminado BIT NULL DEFAULT 0,
+    Estado BIT NOT NULL DEFAULT 1,
     CONSTRAINT FK_Domicilio_Cliente FOREIGN KEY (IDCliente) REFERENCES CLIENTE(IDCliente)
 );
 GO
@@ -192,4 +195,17 @@ CREATE TABLE FavoritosCliente (
     CONSTRAINT FK_Favoritos_Articulo FOREIGN KEY (SKU) REFERENCES ARTICULO(SKU)
 );
 
+GO
+
+CREATE TABLE AlertasStockPendientes (
+    IDAlerta INT IDENTITY(1,1) PRIMARY KEY,
+    IDCliente INT NOT NULL,
+    SKU INT NOT NULL,
+    FechaSolicitud DATETIME NOT NULL DEFAULT GETDATE(),
+    Estado BIT NOT NULL DEFAULT 1, -- 1 = Pendiente, 0 = Notificado
+    
+    CONSTRAINT FK_AlertaStock_Cliente FOREIGN KEY (IDCliente) REFERENCES CLIENTE(IDCliente),
+    CONSTRAINT FK_AlertaStock_Articulo FOREIGN KEY (SKU) REFERENCES ARTICULO(SKU),
+    CONSTRAINT UQ_Cliente_SKU_Alerta UNIQUE (IDCliente, SKU) -- Evita duplicados
+);
 GO

@@ -15,6 +15,7 @@ BEGIN
         BEGIN
             
             DELETE FROM FavoritosCliente WHERE IDCliente = @IDCliente AND SKU = @SKU;
+            DELETE FROM AlertasStockPendientes WHERE IDCliente = @IDCliente AND SKU = @SKU AND Estado = 1;
             
             PRINT 'Artículo quitado de favoritos.';
         END

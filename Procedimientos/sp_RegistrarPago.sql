@@ -65,7 +65,7 @@ BEGIN
             
             IF NOT EXISTS (
                 SELECT 1 FROM dbo.DomicilioCliente 
-                WHERE IDDomicilio = @IDDomicilio AND IDCliente = @IDClienteDelPedido
+                WHERE IDDomicilio = @IDDomicilio AND IDCliente = @IDClienteDelPedido AND Estado = 1
             )
             BEGIN
                 RAISERROR('El domicilio de envío seleccionado no pertenece al cliente.', 16, 1);
