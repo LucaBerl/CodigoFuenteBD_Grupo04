@@ -26,5 +26,20 @@ namespace WebAPIEcommerce.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpGet]
+        [Route("disponibles")]
+        public IHttpActionResult GetDisponibles()
+        {
+            try
+            {
+                var productos = _productoLogica.ObtenerProductosDisponibles();
+                return Ok(productos);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }

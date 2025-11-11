@@ -19,5 +19,11 @@ namespace WebAPIEcommerce.BLL
             }
             return _productoDatos.ObtenerArticulosPorCategoria(idCategoria);
         }
+
+        public List<ArticuloDisponibleView> ObtenerProductosDisponibles()
+        {
+            
+            return _productoDatos.ObtenerProductosDisponibles();
+        }
     }
 }

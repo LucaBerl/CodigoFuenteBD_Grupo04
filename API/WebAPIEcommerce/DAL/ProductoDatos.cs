@@ -46,5 +46,44 @@ namespace WebAPIEcommerce.DAL
             }
             return lista;
         }
+
+        public List<ArticuloDisponibleView> ObtenerProductosDisponibles()
+        {
+            var lista = new List<ArticuloDisponibleView>();
+            string query = "SELECT * FROM vw_ProductosConStock";
+
+            using (var cnn = ConexionDB.GetConexion())
+            {
+                try
+                {
+                    cnn.Open();
+                    var cmd = new SqlCommand(query, cnn);
+                    cmd.CommandType = CommandType.Text;
+
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            lista.Add(new ArticuloDisponibleView
+                            {
+                                IDProducto = (int)reader["IDProducto"],
+                                NombreProducto = reader["NombreProducto"].ToString(),
+                                Descripcion = reader["Descripcion"].ToString(),
+                                SKU = (int)reader["SKU"],
+                                Color = reader["Color"].ToString(),
+                                Talle = reader["Talle"].ToString(),
+                                CantidadStock = (int)reader["CantidadStock"],
+                                Precio = (decimal)reader["Precio"]
+                            });
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception("Error al consultar productos disponibles: " + ex.Message);
+                }
+            }
+            return lista;
+        }
     }
 }

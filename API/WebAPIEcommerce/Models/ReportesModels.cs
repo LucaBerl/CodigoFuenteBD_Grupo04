@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace WebAPIEcommerce.Models
+{
+    // 1. Modelo para la solicitud del reporte de ventas
+    public class ReporteVentasRequest
+    {
+        public DateTime Desde { get; set; }
+        public DateTime Hasta { get; set; }
+        public int? IDMarca { get; set; }
+        public int? IDCategoria { get; set; }
+    }
+
+    // 2. Modelo de respuesta para sp_ReporteVentasParam
+    public class ReporteVentasView
+    {
+        public int Anio { get; set; }
+        public int Mes { get; set; }
+        public string Marca { get; set; }
+        public string Categoria { get; set; }
+        public int CantPedidos { get; set; }
+        public decimal TotalVendido { get; set; }
+    }
+
+    // 3. Modelo de respuesta para vw_ReporteMensual
+    public class ReporteMensualView
+    {
+        public int Anio { get; set; }
+        public int Mes { get; set; }
+        public decimal MontoTotalVentas { get; set; }
+        public int CantidadPedidos { get; set; }
+    }
+}

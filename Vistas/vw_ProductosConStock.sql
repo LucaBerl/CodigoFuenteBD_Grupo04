@@ -2,7 +2,7 @@ USE ECOMMERCE_BD;
 GO
 
 
-ALTER VIEW vw_ProductosConStock AS
+CREATE VIEW vw_ProductosConStock AS
 SELECT
     P.IDProducto,
     P.Nombre AS NombreProducto,

@@ -157,25 +157,35 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="BLL\CarritoLogica.cs" />
     <Compile Include="BLL\CheckoutLogica.cs" />
+    <Compile Include="BLL\DomicilioLogica.cs" />
+    <Compile Include="BLL\FavoritosLogica.cs" />
     <Compile Include="BLL\PedidoLogica.cs" />
     <Compile Include="BLL\ProductoLogica.cs" />
+    <Compile Include="BLL\ReportesLogica.cs" />
     <Compile Include="Controllers\CarritoController.cs" />
     <Compile Include="Controllers\CheckoutController.cs" />
+    <Compile Include="Controllers\DomicilioController.cs" />
     <Compile Include="Controllers\EnvioController.cs" />
+    <Compile Include="Controllers\FavoritosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PedidoCntroller.cs" />
     <Compile Include="Controllers\ProductosController.cs" />
+    <Compile Include="Controllers\ReportesController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="DAL\CheckoutDatos.cs" />
     <Compile Include="DAL\ConexionDB.cs" />
+    <Compile Include="DAL\DomicilioDatos.cs" />
     <Compile Include="DAL\EnvioDatos.cs" />
+    <Compile Include="DAL\FavoritosDatos.cs" />
     <Compile Include="DAL\PedidoDatos.cs" />
     <Compile Include="DAL\ProductoDatos.cs" />
+    <Compile Include="DAL\ReportesDatos.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\ActualizarEnvioRequest.cs" />
     <Compile Include="Models\AgregarArticuloRequest.cs" />
+    <Compile Include="Models\ArticuloDisponibleView.cs" />
     <Compile Include="Models\ArticuloPorCategoriaView.cs" />
     <Compile Include="Models\Categoria.cs" />
     <Compile Include="Models\Envio.cs" />
@@ -183,6 +193,8 @@
     <Compile Include="Models\EstadoPedido.cs" />
     <Compile Include="Models\Pedido.cs" />
     <Compile Include="Models\RegistrarPagoRequest.cs" />
+    <Compile Include="Models\ReportesModels.cs" />
+    <Compile Include="Models\ToggleFavoritoRequest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
