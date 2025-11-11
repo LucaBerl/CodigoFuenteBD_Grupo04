@@ -5,7 +5,7 @@ using System.Web;
 
 namespace WebAPIEcommerce.Models
 {
-    // 1. Modelo para la solicitud del reporte de ventas
+    
     public class ReporteVentasRequest
     {
         public DateTime Desde { get; set; }
@@ -14,7 +14,7 @@ namespace WebAPIEcommerce.Models
         public int? IDCategoria { get; set; }
     }
 
-    // 2. Modelo de respuesta para sp_ReporteVentasParam
+    
     public class ReporteVentasView
     {
         public int Anio { get; set; }
@@ -25,7 +25,7 @@ namespace WebAPIEcommerce.Models
         public decimal TotalVendido { get; set; }
     }
 
-    // 3. Modelo de respuesta para vw_ReporteMensual
+    
     public class ReporteMensualView
     {
         public int Anio { get; set; }

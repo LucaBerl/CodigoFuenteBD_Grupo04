@@ -100,11 +100,11 @@ namespace WebAPIEcommerce.DAL
                 }
                 catch (Exception ex)
                 {
-                    // Loguear el error (ex)
+                    
                     throw new Exception("Error al obtener resumen del pedido: " + ex.Message);
                 }
             }
-            return resumen; // Devuelve el objeto, or null si no se encontró
+            return resumen; 
         }
     }
 }

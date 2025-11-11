@@ -11,7 +11,7 @@ namespace WebAPIEcommerce.BLL
     {
         private PedidoDatos _pedidoDatos = new PedidoDatos();
 
-        // --- MÉTODO PARA OBTENER EL RESUMEN ---
+        
         public EstadoDePedidoView ObtenerResumen(int idPedido)
         {
             if (idPedido <= 0)
@@ -19,12 +19,10 @@ namespace WebAPIEcommerce.BLL
                 throw new Exception("El ID del pedido no es válido.");
             }
 
-            // Simplemente llama a la DAL
+            
             var resumen = _pedidoDatos.ObtenerResumenPedido(idPedido);
 
-            // La lógica de negocio podría verificar permisos, etc.
-            // Si no lo encuentra, devuelve null
-
+            
             return resumen;
         }
     }

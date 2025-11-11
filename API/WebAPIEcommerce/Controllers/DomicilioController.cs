@@ -7,7 +7,7 @@ using WebAPIEcommerce.BLL;
 
 namespace WebAPIEcommerce.Controllers
 {
-    // Modelo simple para pasar el IDCliente en el body del DELETE
+    
     public class DeleteDomicilioRequest
     {
         public int IDCliente { get; set; }
@@ -26,13 +26,13 @@ namespace WebAPIEcommerce.Controllers
 
             try
             {
-                // Pasamos el idCliente (del body) para validar que es el dueño
+                
                 _domicilioLogica.EliminarDomicilio(idDomicilio, request.IDCliente);
                 return Ok(new { message = "Domicilio eliminado. Si era predeterminado, se asignó uno nuevo." });
             }
             catch (Exception ex)
             {
-                // Captura error de FK (domicilio en uso) o si no se encontró
+                
                 return BadRequest(ex.Message);
             }
         }

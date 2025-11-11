@@ -24,7 +24,7 @@ namespace WebAPIEcommerce.BLL
                 throw new Exception("El método de pago es requerido.");
             }
 
-            // Llamamos a la DAL con el IDDomicilio (que puede ser null)
+            
             _checkoutDatos.RegistrarPago(
                 request.IDPedido,
                 request.MetodoPago,

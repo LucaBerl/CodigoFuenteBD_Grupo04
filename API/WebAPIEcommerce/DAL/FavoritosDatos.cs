@@ -25,7 +25,7 @@ namespace WebAPIEcommerce.DAL
                 }
                 catch (SqlException sqlEx)
                 {
-                    // Captura RAISERROR de validaciones (ej. "El artículo no existe")
+                    
                     throw new Exception(sqlEx.Message);
                 }
                 catch (Exception ex)

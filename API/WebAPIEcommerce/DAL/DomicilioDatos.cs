@@ -11,7 +11,7 @@ namespace WebAPIEcommerce.DAL
     {
         public void EliminarDomicilio(int idDomicilio, int idCliente)
         {
-            // Usamos un DELETE físico para probar el trigger
+            
             string query = "DELETE FROM DomicilioCliente WHERE IDDomicilio = @IDDomicilio AND IDCliente = @IDCliente";
 
             using (var cnn = ConexionDB.GetConexion())
@@ -22,7 +22,7 @@ namespace WebAPIEcommerce.DAL
                     var cmd = new SqlCommand(query, cnn);
                     cmd.CommandType = CommandType.Text;
                     cmd.Parameters.AddWithValue("@IDDomicilio", idDomicilio);
-                    cmd.Parameters.AddWithValue("@IDCliente", idCliente); // Por seguridad
+                    cmd.Parameters.AddWithValue("@IDCliente", idCliente); 
 
                     int filasAfectadas = cmd.ExecuteNonQuery();
 
@@ -30,11 +30,11 @@ namespace WebAPIEcommerce.DAL
                     {
                         throw new Exception("No se encontró el domicilio o no pertenece al cliente.");
                     }
-                    // Si el DELETE funciona, el trigger trg_AsegurarDomicilioPredeterminado se habrá ejecutado.
+                    
                 }
                 catch (SqlException sqlEx)
                 {
-                    // Captura error de FK si el domicilio fue usado en un ENVIO
+                   
                     throw new Exception("Error de base de datos: " + sqlEx.Message);
                 }
             }

@@ -30,9 +30,7 @@ namespace WebAPIEcommerce.Controllers
             }
             catch (Exception ex)
             {
-                // Si  se intenta actualizar un envío "Entregado",
-                // el trigger trg_Envio_ValidarEstadoFinal lanza un error
-                // y es capturado aca...
+                
                 return BadRequest(ex.Message);
             }
         }

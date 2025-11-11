@@ -3,84 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\bll\\domiciliologica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\bll\\domiciliologica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\models\\actualizarenviorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\models\\actualizarenviorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\bll\\reporteslogica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\bll\\reporteslogica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\dal\\reportesdatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\dal\\reportesdatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\models\\reportesmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\models\\reportesmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\bll\\productologica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\bll\\productologica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\dal\\productodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\dal\\productodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\models\\agregararticulorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\models\\agregararticulorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\models\\articulodisponibleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\models\\articulodisponibleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\controllers\\domiciliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\controllers\\domiciliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\models\\articuloporcategoriaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\models\\articuloporcategoriaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\dal\\domiciliodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\dal\\domiciliodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\controllers\\favoritoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\controllers\\favoritoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\models\\envio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\models\\envio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\models\\estadodepedidoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\models\\estadodepedidoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\bll\\favoritoslogica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\bll\\favoritoslogica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\models\\estadopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\models\\estadopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\dal\\favoritosdatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\dal\\favoritosdatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\models\\registrarpagorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\models\\registrarpagorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\models\\reportesmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\models\\reportesmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\models\\togglefavoritorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\models\\togglefavoritorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\dal\\checkoutdatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\dal\\checkoutdatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\dal\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\dal\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\dal\\enviodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\dal\\enviodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|c:\\users\\luca\\desktop\\programaci\u00F3n\\base de datos ii\\tp integrador\\codigofuentebd_grupo04\\api\\webapiecommerce\\dal\\pedidodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64C1C03E-BC20-4A94-AA6A-1F657118324B}|WebAPIEcommerce\\WebAPIEcommerce.csproj|solutionrelative:webapiecommerce\\dal\\pedidodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,262 +62,158 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReportesDatos.cs",
-              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\DAL\\ReportesDatos.cs",
-              "RelativeDocumentMoniker": "WebAPIEcommerce\\DAL\\ReportesDatos.cs",
-              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\DAL\\ReportesDatos.cs",
-              "RelativeToolTip": "WebAPIEcommerce\\DAL\\ReportesDatos.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowFUAAAABAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "EstadoDePedidoView.cs",
+              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\EstadoDePedidoView.cs",
+              "RelativeDocumentMoniker": "WebAPIEcommerce\\Models\\EstadoDePedidoView.cs",
+              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\EstadoDePedidoView.cs",
+              "RelativeToolTip": "WebAPIEcommerce\\Models\\EstadoDePedidoView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T00:03:43.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ReportesModels.cs",
-              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\ReportesModels.cs",
-              "RelativeDocumentMoniker": "WebAPIEcommerce\\Models\\ReportesModels.cs",
-              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\ReportesModels.cs",
-              "RelativeToolTip": "WebAPIEcommerce\\Models\\ReportesModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T00:03:10.537Z",
+              "WhenOpened": "2025-11-11T00:51:57.861Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ProductosController.cs",
-              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Controllers\\ProductosController.cs",
-              "RelativeDocumentMoniker": "WebAPIEcommerce\\Controllers\\ProductosController.cs",
-              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Controllers\\ProductosController.cs",
-              "RelativeToolTip": "WebAPIEcommerce\\Controllers\\ProductosController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAYwCoAAAAJAAAAAAAAAA==",
+              "Title": "Envio.cs",
+              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\Envio.cs",
+              "RelativeDocumentMoniker": "WebAPIEcommerce\\Models\\Envio.cs",
+              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\Envio.cs",
+              "RelativeToolTip": "WebAPIEcommerce\\Models\\Envio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T00:02:23.222Z",
+              "WhenOpened": "2025-11-11T00:51:57.318Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductoLogica.cs",
-              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\BLL\\ProductoLogica.cs",
-              "RelativeDocumentMoniker": "WebAPIEcommerce\\BLL\\ProductoLogica.cs",
-              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\BLL\\ProductoLogica.cs",
-              "RelativeToolTip": "WebAPIEcommerce\\BLL\\ProductoLogica.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "WebAPIEcommerce\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\Categoria.cs",
+              "RelativeToolTip": "WebAPIEcommerce\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T00:01:50.626Z",
+              "WhenOpened": "2025-11-11T00:51:56.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ArticuloDisponibleView.cs",
-              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\ArticuloDisponibleView.cs",
-              "RelativeDocumentMoniker": "WebAPIEcommerce\\Models\\ArticuloDisponibleView.cs",
-              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\ArticuloDisponibleView.cs",
-              "RelativeToolTip": "WebAPIEcommerce\\Models\\ArticuloDisponibleView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ArticuloPorCategoriaView.cs",
+              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\ArticuloPorCategoriaView.cs",
+              "RelativeDocumentMoniker": "WebAPIEcommerce\\Models\\ArticuloPorCategoriaView.cs",
+              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\ArticuloPorCategoriaView.cs",
+              "RelativeToolTip": "WebAPIEcommerce\\Models\\ArticuloPorCategoriaView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T00:00:45.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DomicilioController.cs",
-              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Controllers\\DomicilioController.cs",
-              "RelativeDocumentMoniker": "WebAPIEcommerce\\Controllers\\DomicilioController.cs",
-              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Controllers\\DomicilioController.cs",
-              "RelativeToolTip": "WebAPIEcommerce\\Controllers\\DomicilioController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T23:58:07.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DomicilioLogica.cs",
-              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\BLL\\DomicilioLogica.cs",
-              "RelativeDocumentMoniker": "WebAPIEcommerce\\BLL\\DomicilioLogica.cs",
-              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\BLL\\DomicilioLogica.cs",
-              "RelativeToolTip": "WebAPIEcommerce\\BLL\\DomicilioLogica.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T23:57:02.963Z",
+              "WhenOpened": "2025-11-11T00:51:56.182Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ReportesLogica.cs",
-              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\BLL\\ReportesLogica.cs",
-              "RelativeDocumentMoniker": "WebAPIEcommerce\\BLL\\ReportesLogica.cs",
-              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\BLL\\ReportesLogica.cs",
-              "RelativeToolTip": "WebAPIEcommerce\\BLL\\ReportesLogica.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Title": "ArticuloDisponibleView.cs",
+              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\ArticuloDisponibleView.cs",
+              "RelativeDocumentMoniker": "WebAPIEcommerce\\Models\\ArticuloDisponibleView.cs",
+              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\ArticuloDisponibleView.cs",
+              "RelativeToolTip": "WebAPIEcommerce\\Models\\ArticuloDisponibleView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T00:04:19.039Z",
+              "WhenOpened": "2025-11-11T00:51:55.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ReportesController.cs",
-              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Controllers\\ReportesController.cs",
-              "RelativeDocumentMoniker": "WebAPIEcommerce\\Controllers\\ReportesController.cs",
-              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Controllers\\ReportesController.cs",
-              "RelativeToolTip": "WebAPIEcommerce\\Controllers\\ReportesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Title": "AgregarArticuloRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\AgregarArticuloRequest.cs",
+              "RelativeDocumentMoniker": "WebAPIEcommerce\\Models\\AgregarArticuloRequest.cs",
+              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\AgregarArticuloRequest.cs",
+              "RelativeToolTip": "WebAPIEcommerce\\Models\\AgregarArticuloRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T00:04:41.415Z",
+              "WhenOpened": "2025-11-11T00:51:54.987Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DomicilioDatos.cs",
-              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\DAL\\DomicilioDatos.cs",
-              "RelativeDocumentMoniker": "WebAPIEcommerce\\DAL\\DomicilioDatos.cs",
-              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\DAL\\DomicilioDatos.cs",
-              "RelativeToolTip": "WebAPIEcommerce\\DAL\\DomicilioDatos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ActualizarEnvioRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\ActualizarEnvioRequest.cs",
+              "RelativeDocumentMoniker": "WebAPIEcommerce\\Models\\ActualizarEnvioRequest.cs",
+              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\ActualizarEnvioRequest.cs",
+              "RelativeToolTip": "WebAPIEcommerce\\Models\\ActualizarEnvioRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T23:56:26.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FavoritosController.cs",
-              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Controllers\\FavoritosController.cs",
-              "RelativeDocumentMoniker": "WebAPIEcommerce\\Controllers\\FavoritosController.cs",
-              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Controllers\\FavoritosController.cs",
-              "RelativeToolTip": "WebAPIEcommerce\\Controllers\\FavoritosController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T23:55:18.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CheckoutController.cs",
-              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Controllers\\CheckoutController.cs",
-              "RelativeDocumentMoniker": "WebAPIEcommerce\\Controllers\\CheckoutController.cs",
-              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Controllers\\CheckoutController.cs",
-              "RelativeToolTip": "WebAPIEcommerce\\Controllers\\CheckoutController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T23:54:48.879Z",
+              "WhenOpened": "2025-11-11T00:51:54.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ProductoDatos.cs",
-              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\DAL\\ProductoDatos.cs",
-              "RelativeDocumentMoniker": "WebAPIEcommerce\\DAL\\ProductoDatos.cs",
-              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\DAL\\ProductoDatos.cs",
-              "RelativeToolTip": "WebAPIEcommerce\\DAL\\ProductoDatos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
+              "Title": "EstadoPedido.cs",
+              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\EstadoPedido.cs",
+              "RelativeDocumentMoniker": "WebAPIEcommerce\\Models\\EstadoPedido.cs",
+              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\EstadoPedido.cs",
+              "RelativeToolTip": "WebAPIEcommerce\\Models\\EstadoPedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T23:44:05.283Z",
+              "WhenOpened": "2025-11-11T00:52:03.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "FavoritosLogica.cs",
-              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\BLL\\FavoritosLogica.cs",
-              "RelativeDocumentMoniker": "WebAPIEcommerce\\BLL\\FavoritosLogica.cs",
-              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\BLL\\FavoritosLogica.cs",
-              "RelativeToolTip": "WebAPIEcommerce\\BLL\\FavoritosLogica.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\Pedido.cs",
+              "RelativeDocumentMoniker": "WebAPIEcommerce\\Models\\Pedido.cs",
+              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\Pedido.cs",
+              "RelativeToolTip": "WebAPIEcommerce\\Models\\Pedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T23:53:43.636Z",
+              "WhenOpened": "2025-11-11T00:52:04.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "FavoritosDatos.cs",
-              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\DAL\\FavoritosDatos.cs",
-              "RelativeDocumentMoniker": "WebAPIEcommerce\\DAL\\FavoritosDatos.cs",
-              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\DAL\\FavoritosDatos.cs",
-              "RelativeToolTip": "WebAPIEcommerce\\DAL\\FavoritosDatos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAARAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "RegistrarPagoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\RegistrarPagoRequest.cs",
+              "RelativeDocumentMoniker": "WebAPIEcommerce\\Models\\RegistrarPagoRequest.cs",
+              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\RegistrarPagoRequest.cs",
+              "RelativeToolTip": "WebAPIEcommerce\\Models\\RegistrarPagoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T23:52:55.626Z",
+              "WhenOpened": "2025-11-11T00:52:05.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
+              "Title": "ReportesModels.cs",
+              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\ReportesModels.cs",
+              "RelativeDocumentMoniker": "WebAPIEcommerce\\Models\\ReportesModels.cs",
+              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\ReportesModels.cs",
+              "RelativeToolTip": "WebAPIEcommerce\\Models\\ReportesModels.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T00:52:06.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ToggleFavoritoRequest.cs",
               "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\ToggleFavoritoRequest.cs",
               "RelativeDocumentMoniker": "WebAPIEcommerce\\Models\\ToggleFavoritoRequest.cs",
               "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\Models\\ToggleFavoritoRequest.cs",
               "RelativeToolTip": "WebAPIEcommerce\\Models\\ToggleFavoritoRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T23:52:28.193Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "PedidoDatos.cs",
-              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\DAL\\PedidoDatos.cs",
-              "RelativeDocumentMoniker": "WebAPIEcommerce\\DAL\\PedidoDatos.cs",
-              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\DAL\\PedidoDatos.cs",
-              "RelativeToolTip": "WebAPIEcommerce\\DAL\\PedidoDatos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T23:44:02.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "EnvioDatos.cs",
-              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\DAL\\EnvioDatos.cs",
-              "RelativeDocumentMoniker": "WebAPIEcommerce\\DAL\\EnvioDatos.cs",
-              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\DAL\\EnvioDatos.cs",
-              "RelativeToolTip": "WebAPIEcommerce\\DAL\\EnvioDatos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T23:44:02.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ConexionDB.cs",
-              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\DAL\\ConexionDB.cs",
-              "RelativeDocumentMoniker": "WebAPIEcommerce\\DAL\\ConexionDB.cs",
-              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\DAL\\ConexionDB.cs",
-              "RelativeToolTip": "WebAPIEcommerce\\DAL\\ConexionDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T23:44:01.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CheckoutDatos.cs",
-              "DocumentMoniker": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\DAL\\CheckoutDatos.cs",
-              "RelativeDocumentMoniker": "WebAPIEcommerce\\DAL\\CheckoutDatos.cs",
-              "ToolTip": "C:\\Users\\Luca\\Desktop\\Programaci\u00F3n\\Base de datos II\\TP Integrador\\CodigoFuenteBD_Grupo04\\API\\WebAPIEcommerce\\DAL\\CheckoutDatos.cs",
-              "RelativeToolTip": "WebAPIEcommerce\\DAL\\CheckoutDatos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T23:44:00.774Z",
+              "WhenOpened": "2025-11-11T00:52:07.309Z",
               "EditorCaption": ""
             }
           ]

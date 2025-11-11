@@ -17,7 +17,7 @@ namespace WebAPIEcommerce.BLL
             {
                 throw new Exception("La fecha 'Desde' no puede ser mayor a la fecha 'Hasta'.");
             }
-            // Aseguramos que 'Hasta' incluya todo el día
+            
             request.Hasta = request.Hasta.Date.AddDays(1).AddTicks(-1);
 
             return _reportesDatos.ObtenerReporteVentas(request);

@@ -33,7 +33,6 @@ namespace WebAPIEcommerce.DAL
                             {
                                 IDProducto = (int)reader["IDProducto"],
                                 NombreProducto = reader["NombreProducto"].ToString(),
-                                // ... (resto de las propiedades) ...
                                 ImagenUrl = reader["ImagenUrl"] != DBNull.Value ? reader["ImagenUrl"].ToString() : null
                             });
                         }
